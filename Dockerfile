@@ -1,4 +1,4 @@
-FROM microsoft/nanoserver:1803
+FROM mcr.microsoft.com/powershell:nanoserver
 
 ADD pause.ps1 /pause/pause.ps1
 
